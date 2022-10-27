@@ -56,14 +56,11 @@ export default hopeTheme({
   //================srtart功能设置====================
 
   hostname: "",
-
   author: {
     name: "HanSer",
     url: "#",
   },
-
   iconAssets: "iconfont",
-
   docsDir: "",
 
   // 页面信息
@@ -76,14 +73,15 @@ export default hopeTheme({
   },
 
   //================srtart功能设置====================
+
   // 多语言设置
   locales: {
     /**
      * Chinese locale config
      */
     "/": {
-      //
-      logo: "", // 多语言logo
+      // 多语言logo
+      // logo: "",
       // navbar
       navbar: zhNavbar,
 

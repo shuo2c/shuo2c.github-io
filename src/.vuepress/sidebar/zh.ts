@@ -5,7 +5,7 @@ export const zhSidebar = sidebar({
     {
       icon: "creative",
       text: "vps使用指南",
-      prefix: "demo/",
+      prefix: "vps/",
       link: "vps/",
       children: "structure",
     },

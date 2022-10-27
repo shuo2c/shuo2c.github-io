@@ -11,6 +11,7 @@ export default defineUserConfig({
       lang: "zh-CN",
       title: "知识库",
       description: "学习笔记存储...",
+      head: [['link', { rel: 'icon', href: '/assets/icon/favicon.ico' }]],
     },
   },
 
