@@ -28,49 +28,58 @@ export default hopeTheme({
   // 背景色
   logo: "/logo.png",
   // logoDark: ""  深色模式背景色
-   // 默认为 GitHub. 同时也可以是一个完整的 URL
-   repo: "vuepress-theme-hope/vuepress-theme-hope",
-   // 自定义仓库链接文字。默认从 `repo` 中自动推断为
-   // "GitHub" / "GitLab" / "Gitee" / "Bitbucket" 其中之一，或是 "Source"。
-   repoLabel: "GitHub",
-   // 是否在导航栏内显示仓库链接，默认为 `true`
-   repoDisplay: true,
-   // 布局配置 Brand: 站点品牌, Links: 导航栏链接, Language: 语言切换菜单, Search: 搜索框, Outlook: 外观弹窗, Repo: 项目仓库
-   navbarLayout: {
-    left: ["Brand"],
-    center: [],
-    right: ["Links", "Language", "Repo", "Outlook", "Search"],
-   },
-   // 自动生成侧边栏(这里配置的话会是所有页面)
-   // sidebar: "heading",
-   // 侧边栏图标是否展示
-   sidebarIcon: true,
-   // 面包屑导航(可以在区域内关闭或开启)
-   breadcrumb: true,
-   // 显示页脚 (locales可以单独设置)
-   displayFooter: true,
-   // 标题列表展示
-   toc: false,
+  // 默认为 GitHub. 同时也可以是一个完整的 URL
+  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  // 自定义仓库链接文字。默认从 `repo` 中自动推断为
+  // "GitHub" / "GitLab" / "Gitee" / "Bitbucket" 其中之一，或是 "Source"。
+  repoLabel: "GitHub",
+  // 是否在导航栏内显示仓库链接，默认为 `true`
+  repoDisplay: true,
+  // 是否在导航栏显示图标
+  navbarIcon: true,
+  // 布局配置 Brand: 站点品牌, Links: 导航栏链接, Language: 语言切换菜单, Search: 搜索框, Outlook: 外观弹窗, Repo: 项目仓库
+  navbarLayout: {
+  left: ["Brand"],
+  center: [],
+  right: ["Links", "Language", "Repo", "Outlook", "Search"],
+  },
+  // 自动生成侧边栏(这里配置的话会是所有页面)
+  // sidebar: "heading",
+  // 侧边栏图标是否展示
+  sidebarIcon: true,
+  // 面包屑导航(可以在区域内关闭或开启)
+  breadcrumb: true,
+  // 显示页脚 (locales可以单独设置)
+  displayFooter: true,
+  // 标题列表展示
+  toc: true,
   // ===================start布局======================
 
   //================srtart功能设置====================
 
-  hostname: "",
+  // 站点部署URL
+  hostname: "http://docs.soln.store",
+  // 文章显示的作者
   author: {
     name: "HanSer",
     url: "#",
   },
   iconAssets: "iconfont",
-  docsDir: "",
 
   // 页面信息
   pageInfo: ["Author", "Original", "Date", "ReadingTime", "Word", "PageView"],
   // 加密
   encrypt: {
-    config: {
-      "/demo/encrypt.html": ["1234"],
-    },
+    global: false, // 是否全局加密
+    admin:[], // 最高权限密码
+    // config: {
+    //   "/demo/encrypt.html": ["666666"],
+    // },
   },
+  // 是否显示页面最后更新时间
+  lastUpdated: true,
+  // 是否显示页面贡献者
+  contributors:true,
 
   //================srtart功能设置====================
 
