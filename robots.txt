@@ -1,0 +1,5 @@
+
+User-agent:*
+Disallow:
+
+Sitemap: http://shuo2c.github.io/sitemap.xml
