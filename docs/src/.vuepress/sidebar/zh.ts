@@ -4,7 +4,7 @@ export const zhSidebar = sidebar({
   "/": [
     {
       icon: "creative",
-      text: "vps使用指南",
+      text: "vuepress主题学习指南",
       prefix: "vps/",
       link: "vps/",
       children: "structure",
