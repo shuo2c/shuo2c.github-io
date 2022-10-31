@@ -1,6 +1,6 @@
 ---
 title: markdown语法介绍
-index: false
+index: true
 icon: 'markdown'
 ---
 

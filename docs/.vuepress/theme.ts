@@ -39,6 +39,11 @@ export default hopeTheme({
     // 部署网站的url地址
     hostname: "https://shuo2c.github.io",
 
+    author: {
+      name: "shuo2c",
+      url: "#",
+    },
+
     footer: "MIT LICENSE | Cpoyright ©2019-present shuo2c",
 
     copyright: false,
@@ -48,6 +53,8 @@ export default hopeTheme({
     docsRepo:"https://github.com/shuo2c/shuo2c.github.io",
     docsDir:"/",
     docsBranch: "master",
+
+    pageInfo:["Author", "Date", "Original", "ReadingTime", "Word", "PageView" ],
 
     // 多语言 默认/为中文
     locales: {
@@ -59,7 +66,7 @@ export default hopeTheme({
         sidebar: zhSidebar,
 
         metaLocales: {
-          editLink: "Edit this page on GitHub",
+          editLink: "在 GitHub 上编辑此页",
         },
       }
     },
