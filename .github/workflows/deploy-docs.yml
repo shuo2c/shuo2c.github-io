@@ -33,12 +33,12 @@ jobs:
         env:
           NODE_OPTIONS: --max_old_space_size=8192
         run: |-
-          npm run docs:build
+          npm run docs:build & ls
 
       - name: 部署文档
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           # 这是文档部署到的分支名称
           branch: note-pages
-          folder: shuo2c.github.io/docs/.vuepress/dist
+          folder: docshare/docs/.vuepress/dist
 
