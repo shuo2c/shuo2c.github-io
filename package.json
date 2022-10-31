@@ -1,0 +1,25 @@
+{
+  "name": "docshare",
+  "version": "1.0.0",
+  "description": "just save my documents",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shuo2c/shuo2c.github.io.git"
+  },
+  "author": "shuo2c",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shuo2c/shuo2c.github.io/issues"
+  },
+  "homepage": "https://github.com/shuo2c/shuo2c.github.io#readme",
+  "devDependencies": {
+    "vuepress": "2.0.0-beta.53",
+    "vuepress-theme-hope": "2.0.0-beta.116"
+  }
+}
