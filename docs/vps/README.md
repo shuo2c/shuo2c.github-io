@@ -6,4 +6,4 @@ icon: 'tool'
 
 ### 相关文章
 
-1. [markdown入门手册](/docs/vps/markdown.md)
+1. [markdown入门手册](/vps/markdown.md)
