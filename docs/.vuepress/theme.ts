@@ -19,9 +19,35 @@ export default hopeTheme({
     pure: false,
     //============end 主题===================
 
+    //===========start 布局================
+    logo: './logo.png',
+    // 默认为 GitHub. 同时也可以是一个完整的 URL
+    repo: "https://github.com/shuo2c/shuo2c.github.io",
+    // 自定义仓库链接文字。默认从 `repo` 中自动推断为
+    // "GitHub" / "GitLab" / "Gitee" / "Bitbucket" 其中之一，或是 "Source"。
+    repoLabel: "GitHub",
+    // 是否在导航栏内显示仓库链接，默认为 `true`
+    repoDisplay: true,
+    // 顶部栏布局
+    navbarLayout: {
+      left: ["Brand"],
+      center: ["Links"],
+      right: ["Language", "Repo", "Outlook", "Search"],
+    },
+    //===========end 布局==================
 
     // 部署网站的url地址
     hostname: "https://shuo2c.github.io",
+
+    footer: "MIT LICENSE | Cpoyright ©2019-present shuo2c",
+
+    copyright: false,
+
+    displayFooter: true,
+
+    docsRepo:"https://github.com/shuo2c/shuo2c.github.io",
+    docsDir:"/",
+    docsBranch: "master",
 
     // 多语言 默认/为中文
     locales: {
@@ -31,10 +57,6 @@ export default hopeTheme({
 
         // sidebar
         sidebar: zhSidebar,
-
-        footer: "Default footer",
-
-        displayFooter: true,
 
         metaLocales: {
           editLink: "Edit this page on GitHub",
