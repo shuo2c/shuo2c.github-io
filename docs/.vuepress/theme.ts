@@ -37,7 +37,7 @@ export default hopeTheme({
     //===========end 布局==================
 
     // 部署网站的url地址
-    hostname: "https://shuo2c.github.io/",
+    hostname: "https://github.com/",
 
     author: {
       name: "shuo2c",
