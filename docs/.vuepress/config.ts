@@ -11,5 +11,7 @@ export default defineUserConfig({
   head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
 
   // 主题
-  theme
+  theme,
+
+  shouldPrefetch: false,
 })
