@@ -4,7 +4,7 @@ import theme from "./theme.js";
 export default defineUserConfig({
   base: "/",
   lang: 'zh-CN',
-  title: '开发指南',
+  title: '前端开发笔记心得',
   description: '文档存储，知识库，笔记，指南',
 
   //icon
