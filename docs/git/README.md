@@ -59,5 +59,104 @@ git fetch [repository name] [branch name]
 git checkout [branch name]
 ```
 
+6. 拉取一个远程的分支并修改名称
+```
+git clone [url] [dir name]
+```
+
+7. 根据当前分支创建一个新的分支
+```
+git branch [branch name]
+// 删除分支(不能在当前分支上)
+git branch -D/d [branch name]
+// 切换到当前分支上
+git checkou [branch name]
+// 创建分支并切换到该分支
+git checkout -b [branch name]
+```
+
+8. 查看提交的历史记录
+```
+// --oneline 简介版本 --graph 查看历史中什么时候出现了分支、合并 --reverse 参数来逆向显示所有日志。
+git log --oneline
+
+// git blame 命令是以列表形式显示修改记录，遇到的场景不多
+git blame <file>
+```
+
+9. 勿触碰的语句，可以用上面的别的方式解决
+```
+// 变基 多人协作会导致存在多条重复记录
+git rebase
+
+// reverse命令
+git reverse
+```
+
+10. 代码回滚
+```
+// 工作区内所有距离上一次的add内容全部丢失
+git checkout --[file] 或者IDE内整体ctrl+z(建议)
+// 暂存区域内的更改丢失(工作区域不受影响)
+$ git reset HEAD^            # 回退所有内容到上一个版本  
+$ git reset HEAD^ hello.php  # 回退 hello.php 文件的版本到上一个版本  
+$ git  reset  052e           # 回退到指定版本
+// 完全回滚到上一次提交(工作区域内的未add内容会保留)
+git reset --hard HEAD
+```
+
+11. git reset 回滚后再次回滚找不到SHA1编码
+```
+git reflog
+```
+
+12. 工作区域内容不想add, 但是想先拉取或者合并等别的分支
+```
+// 异次元的存储
+git stash 
+// 回归到工作目录(可能存在冲突)
+git stash pop
+```
+
+13. 查看当前工作区文件的状态
+```
+git status
+```
+
+14. 产看远程分支源信息
+```
+git remmote   // 源地址
+git remove -v // 源名称
+```
+
+15. git add . git commit -m "xxx" 快捷方式
+```
+git commit -am "xxx"
+```
+
+16. 打tag
+```
+// 普通标签
+git tag -a "v1.0" -m "xxx"
+// PGP标签
+git tag -s "v1.0" -m "xxx"
+// 指定commit的标签
+git tag -a "v1.0" [SHA1] -m "xxx"
+```
+
+17. 删除tag
+```
+git tag -d [tag name]
+git push [repository name] :refs/tags/[tag name]
+```
+
+18. 删除暂存区(索引区)文件，工作区不受影响
+```
+git rm --cache [file]
+```
+
+以上语句应该很全面了，可以应对大部分的应用场景。
+
+
 
 
