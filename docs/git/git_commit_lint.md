@@ -73,7 +73,7 @@ Header 部分只有一行，包括三个字段：`type`（必需）、`scope`（
 
 通过以下命令来配置提交信息模板:
 ```
-git config commit.template   [模板文件名地址]    //这个命令只能设置当前分支的提交模板
+git config commit.template   [模板文件名地址]     //这个命令只能设置当前分支的提交模板
 git config  ——global commit.template   [模板文件名地址]    //这个命令能设置全局的提交模板，注意global前面是两杠
 ```
 新建 .gitmessage.txt(模板文件) 内容可以如下:
