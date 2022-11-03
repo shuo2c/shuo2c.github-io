@@ -4,6 +4,7 @@ description: '约束代码提交规范'
 icon: ''
 ---
 
+[Commit message 和 Change log 编写指南](http://www.ruanyifeng.com/blog/2016/01/commit_message_change_log.html)
 git 规定提交时必须要写提交信息，作为改动说明，保存在 commit 历史中，方便回溯。  
 规范的 log 不仅有助于他人 review, 还可以有效的输出 CHANGELOG，甚至对于项目的研发质量都有很大的提升。  ，大多数同学对于 log 信息都是简单写写，没有很好的重视，甚至有些同学可能都不知道只会事儿...
 
