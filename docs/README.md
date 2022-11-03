@@ -29,6 +29,7 @@ Vue源码就放在那里我却对不懂，就像九阴真经在我手里，我�
 - [Git教程 | 廖雪峰版本](https://www.liaoxuefeng.com/wiki/896043488029600/) 或者 [Git教程 | 菜鸟教程](https://www.runoob.com/git/git-tutorial.html) 优先廖雪峰 
 - [Git常用语法汇总，贴近开发使用](/git/git_base.md)
 - [Git新功能：switch、restore](/git/git_new_feature.md)
+- [Git代码提交规范](/git/git_commit_lint.md)
 
 
 ### 入门篇

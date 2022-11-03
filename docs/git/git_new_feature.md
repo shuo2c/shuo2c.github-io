@@ -65,8 +65,9 @@ git checkout -b new_branch
 git switch -c new_branch
 ```
 
-2. git restore 替代了git checkout --file(暂存区到工作区) 和 git reset HEAD file(版本库到暂存区)
+2. git restore   
 
+替代了git checkout --file(暂存区到工作区) 和 git reset HEAD file(版本库到暂存区)
 `git checkout`传递文件切换文件状态部分功能由`git restore`实现。使用`git restore`命令可以把文件恢复到指定状态：
 ```
 git restore -- test.txt
