@@ -38,8 +38,8 @@ Vue源码就放在那里我却对不懂，就像九阴真经在我手里，我�
 [2] React
 
 ### 工具篇
-[1] 工具篇vuepress-theme-hope之 [mardown语法介绍](/vps/markdown.md)
-
+[1] 工具篇vuepress-theme-hope之 [mardown语法介绍](/vps/markdown.md)  
+[2] [TypeScript](/ts/readme.md)
 ### 出师篇
 
 
